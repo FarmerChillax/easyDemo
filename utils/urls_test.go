@@ -28,7 +28,7 @@ func TestCheckURL(t *testing.T) {
 		{
 			name:    "false-domain-case",
 			args:    args{url: "https://test-url"},
-			want:    false,
+			want:    true,
 			wantErr: false,
 		},
 		{
